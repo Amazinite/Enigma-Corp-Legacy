@@ -1,0 +1,46 @@
+# Copyright (c) 2016 by Jonathan Steck
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+ship "EC-002 'Sentry'"
+	plural "EC-002 'Sentries'"
+	sprite "ship/sentry drone"
+	attributes
+		category "Drone"
+#		category "Interceptor"
+		"cost" 52000
+		"hull" 5000
+		"mass" 120
+		"drag" 1
+		"heat dissipation" 1
+		"outfit space" 100
+		"weapon capacity" 50
+		"engine capacity" 10
+		"automaton" 1
+#		"required crew" 1
+#		"bunks" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Laser Turret"
+
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+
+		"X1025 Ion Engines"
+
+	engine -9 29
+	engine 9 29
+	turret 0 0 "Laser Turret"
+	explode "tiny explosion" 15
+	description "The Sentry Drone is little more than a joke among those in the Corporation design team. Nothing more than a huge metal box filled with targetting computer and a single turret hardpoint placed on the top, the Sentry is a rarely seen drone that can be very useful in numbers, but due to its large mass and low engine capacity it is a rather easy target to hit and does not last long in large battles."
+	description "Brought to you by the Enigma Corporation."
